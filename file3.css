@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+header .logo img{
+    width: 220px;s
+    height: 220px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    margin-top: 2px;
+}
+header nav ul li{
+    padding: 20px;
+    display: inline-block;
+}
+header nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(222, 25, 70);
+    font-size: 1.1rem;
+}
+header nav ul li a:hover{
+    color: #333;
+}
+header nav ul li a.active{
+    color: #333;
+}
+header .btn{
+    padding: 20px;
+}
+header .btn button{
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #ccdcfc;
+    font-size: 1.1%
+    color: rgb(222, 25, 70);
+    text-transform: capitalize;
+    cursor: pointer;
+}
+section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+section .leftsection{
+    width: 50%;
+}
+section .leftsection{
+    width: 50%;
+}
+section .leftsection h1{
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: rgb(222, 25, 70);
+    position: absolute;
+    top: 36%;
+    left: 4%;
+    text-transform: capitalize;
+}
+section .leftsection h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(122, 25, 70);
+    position: absolute;
+    top: 43%;
+    left: 5%;
+    text-transform: capitalize;
+}    
+section .leftsection h3{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(100, 125, 270);
+    position: absolute;
+    top: 55%;
+    left: 8%;
+    text-transform: capitalize;
+}    
+section .leftsection .btn{
+    color: rgb(100, 125, 270);
+    position: absolute;
+    top: 60%;
+    left: 9%;
+}
+section .leftsection .btn button{
+    color: #fff;
+    position: absolute;
+    top: 100%;
+    left: 17%;
+    font-size: 1.1rem;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(222, 25, 70);
+    text-transform: capitalize;
+}
+section .rightsection{
+    width: 50%;
+}
+section .rightsection img{
+    width: 100%;
+    height: 100%;
+    margin-left: 100%
+}
+body{
+    background: url("Screenshot\ \(78\).png");
+    background-size: 110%;
+}
+div.main{
+    top: 70%;
+    left: 9%;
+    width: 400px;
+    margin: -170px auto 0px auto;
+    margin-right:70% ;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+div.register{
+    background-color:rgba(0,0,0,0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px xoid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px
+    rgba(0,0,0,0.3);
+    color:#fff
+}
+form#register{
+    margin: 40px;
+}
+label{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+input#name{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: insert 1px 1px 5px
+    rgba(0,0,0,0.3);
+}
+input#submit{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: rgba(255,100,0,0.8);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid
+    rgba(255,255,255,0.3);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
